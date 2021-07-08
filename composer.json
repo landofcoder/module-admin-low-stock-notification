@@ -1,0 +1,27 @@
+{
+    "name": "landofcoder/module-low-stock-notification",
+    "description": "Admin low stock notification",
+    "require": {
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "proprietary"
+    ],
+    "authors": [
+        {
+          "name": "Landofcoder",
+          "email": "landofcoder@gmail.com",
+          "homepage": "https://landofcoder.com",
+          "role": "Magento 2 Extensions Provider"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Lof\\LowStockNotification\\": ""
+        }
+    }
+}
